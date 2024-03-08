@@ -1,0 +1,10 @@
+# yolo_data.yaml
+path: ../YOLO/datasets/coco  # dataset root dir
+train: images/train
+val: images/val
+# number of classes
+nc: 1  # 如果你有不止一个类别，请更改这个数字
+
+# class names
+names:
+  0: 'cars'  # 将'class_name'修改为你的实际类别名
